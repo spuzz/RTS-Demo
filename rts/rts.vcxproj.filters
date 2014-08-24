@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sprites">
+      <UniqueIdentifier>{8c3c295c-5656-4103-9b07-14661cc20c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sprites">
+      <UniqueIdentifier>{ec38b75e-9bde-4483-878d-6e2f0b938cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{7cf7e99f-1ca7-4d4d-8682-70b413aa9fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{7987fb49-0d02-4b8f-bd86-434da6ca7402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{6ca394fe-d796-429a-beb1-d094d4bab88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{fb1f1878-2dd3-4501-833b-ed85d294aa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{cf54d095-ea1e-49d6-8bcc-79b58bd988b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{f6af3432-1e50-4317-b5eb-c51ac3ba3be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\old">
+      <UniqueIdentifier>{ea5c17da-25d2-4085-a8bf-1db1dadbb07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\control">
+      <UniqueIdentifier>{0ad5bd8e-076b-4a76-8cb7-fdfe75416e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\control">
+      <UniqueIdentifier>{a718a2ee-25c7-47f9-900d-8c9071c7d41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{7d49b2d6-d996-40c1-8b7e-9e02e04c26d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{37fa1b2c-95ac-43b3-8e51-82a2ec589ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\FogofWar">
+      <UniqueIdentifier>{6df4c523-0a18-492e-ac5a-bf795a697a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Pathing">
+      <UniqueIdentifier>{eb84fa43-a130-4bcc-b6f7-7bed7ce66575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Collision">
+      <UniqueIdentifier>{37e9f827-c9d8-41d4-a047-c9d04bf14beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Flocking">
+      <UniqueIdentifier>{12855ffa-973d-4a42-badc-dbe709df9a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Flocking">
+      <UniqueIdentifier>{1075fa22-e060-4712-b2d8-d2fc8cb7b8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Collision">
+      <UniqueIdentifier>{209e0a84-8099-45f1-9f2f-dc3f3aaef45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Pathing">
+      <UniqueIdentifier>{496a9bb5-e559-4b54-a341-2cf0c334a166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\FogofWar">
+      <UniqueIdentifier>{c74339a2-8a7d-4368-afee-2e8946b33842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="point2d.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_MainWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMainWindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="QtMain.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="QtMainGame.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="texLoad.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_QtMainGame.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sidePanel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="building.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>Source Files\old</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="playerControl.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="setup.cpp">
+      <Filter>Source Files\control</Filter>
+    </ClCompile>
+    <ClCompile Include="abilityPanel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="selectionPanel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ability.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="buildTier.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="buildAbility.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="trainAbility.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlparser.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="infoPanel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="utilFuncs.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryHeap.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="oldCollision.cpp">
+      <Filter>Source Files\old</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="attackAbility.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="aStar.cpp">
+      <Filter>Source Files\AI\Pathing</Filter>
+    </ClCompile>
+    <ClCompile Include="aStarNode.cpp">
+      <Filter>Source Files\AI\Pathing</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>Source Files\AI\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionGrid.cpp">
+      <Filter>Source Files\AI\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionGridNode.cpp">
+      <Filter>Source Files\AI\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="quadTree.cpp">
+      <Filter>Source Files\AI\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="quadTreeNode.cpp">
+      <Filter>Source Files\AI\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="fogofwar.cpp">
+      <Filter>Source Files\AI\FogofWar</Filter>
+    </ClCompile>
+    <ClCompile Include="fowTile.cpp">
+      <Filter>Source Files\AI\FogofWar</Filter>
+    </ClCompile>
+    <ClCompile Include="pathingQueue.cpp">
+      <Filter>Source Files\AI\Pathing</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Source Files\AI\Flocking</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_abilitypanel.cpp">
+      <Filter>Header Files\AI\Flocking</Filter>
+    </ClCompile>
+    <ClCompile Include="unitMapParser.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="tileMapParser.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteInfo.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="point2d.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMainWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="QtMain.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="QtMainGame.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_mainwindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="texLoad.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_QtMainGame.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="sidePanel.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="building.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteDisplayLists.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="playerControl.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="setup.h">
+      <Filter>Header Files\control</Filter>
+    </ClInclude>
+    <ClInclude Include="abilityPanel.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="selectionPanel.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_abilitypanel.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ability.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="buildTier.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="buildAbility.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="trainAbility.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlparser.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="infoPanel.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="utilFuncs.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryHeap.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="attackAbility.h">
+      <Filter>Header Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="fogofwar.h">
+      <Filter>Header Files\AI\FogofWar</Filter>
+    </ClInclude>
+    <ClInclude Include="fowTile.h">
+      <Filter>Header Files\AI\FogofWar</Filter>
+    </ClInclude>
+    <ClInclude Include="aStar.h">
+      <Filter>Header Files\AI\Pathing</Filter>
+    </ClInclude>
+    <ClInclude Include="aStarNode.h">
+      <Filter>Header Files\AI\Pathing</Filter>
+    </ClInclude>
+    <ClInclude Include="pathingQueue.h">
+      <Filter>Header Files\AI\Pathing</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>Header Files\AI\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionGrid.h">
+      <Filter>Header Files\AI\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionGridNode.h">
+      <Filter>Header Files\AI\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="quadTree.h">
+      <Filter>Header Files\AI\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="quadTreeNode.h">
+      <Filter>Header Files\AI\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Header Files\AI\Flocking</Filter>
+    </ClInclude>
+    <ClInclude Include="unitMapParser.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="tileMapParser.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteInfo.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MainWindow.qrc">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </None>
+    <None Include="QtMainGame.ui">
+      <Filter>Form Files</Filter>
+    </None>
+    <None Include="abilitypanel.ui">
+      <Filter>Form Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

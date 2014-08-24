@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+  <class>Form</class>
+  <widget class="QWidget" name="Form">
+    <property name="geometry">
+      <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>400</width>
+        <height>300</height>
+      </rect>
+    </property>
+    <property name="windowTitle">
+      <string>Form</string>
+    </property>
+  </widget>
+  <resources/>
+  <connections>
+    <connection>
+      <!--<sender>Form</sender>
+      <signal>timeout()</signal>
+      <receiver>Form</receiver>
+      <slot>timeOutSlot()</slot>-->
+      <hints>
+        <hint type="sourcelabel">
+          <x>199</x>
+          <y>149</y>
+        </hint>
+        <hint type="destinationlabel">
+          <x>199</x>
+          <y>149</y>
+        </hint>
+      </hints>
+    </connection>
+  </connections>
+  <slots>
+    <signal>timeout()</signal>
+    <slot>timeOutSlot()</slot>
+  </slots>
+</ui>

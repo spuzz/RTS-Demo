@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="rts|Win32">
+      <Configuration>rts</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>rts</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='rts|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='rts|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8\include;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8\include;C:\Users\aspurrel\Downloads\lpng151\lpng151;$(WindowsSdkDir)include\um;$(WindowsSdkDir)include\shared;</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8;C:\Users\aspurrel\Downloads\lpng151\lpng151\projects\vstudio\Release;C:\Users\aspurrel\Downloads\soil\Simple OpenGL Image Library\projects\VC9\Debug;C:\Qt\4.7.3\bin;(WindowsSdkDir)lib\winv6.3\um\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ReferencePath>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='rts|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8\include;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8\include;C:\Users\aspurrel\Downloads\lpng151\lpng151</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8;C:\Users\aspurrel\Downloads\lpng151\lpng151\projects\vstudio\Release;C:\Users\aspurrel\Downloads\soil\Simple OpenGL Image Library\projects\VC9\Debug</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ReferencePath>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8\include;</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\Users\aspurrel\Downloads\DevIL-SDK-x64-1.7.8;(WindowsSdkDir)lib\winv6.3\um\x86</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\libpng;$(SolutionDir)\xerces\xerces-c-3.1.1-x86-windows-vc-10.0\xerces-c-3.1.1-x86-windows-vc-10.0\include;$(SolutionDir)\qt\include;;$(SolutionDir)\qt\include\QtGui;$(SolutionDir)\qt\include\QtOpenGL;$(SolutionDir)\qt\include\QtCore</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>QtOpenGLd4.lib;QtOpenGL4.lib;qtmaind.lib;QtCored4.lib;QtGuid4.lib;SOIL.lib;libpng.lib;zlib.lib;OpenGL32.lib;GLu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\soil;$(SolutionDir)\qt\lib;$(SolutionDir)\libpng;$(SolutionDir)\xerces\xerces-c-3.1.1-x86-windows-vc-10.0\xerces-c-3.1.1-x86-windows-vc-10.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <BuildLog>
+      <Path>$(IntDir)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='rts|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\aspurrel\Documents\xerces-c-3.1.1-x86-windows-vc-10.0\xerces-c-3.1.1-x86-windows-vc-10.0\include;C:\Qt\4.7.3\include;C:\Users\aspurrel\Downloads\zlib125\zlib-1.2.5;C:\Qt\4.7.3\include\QtGui;C:\Qt\4.7.3\include\QtOpenGL;C:\Qt\4.7.3\include\QtCore</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>QtOpenGLd4.lib;QtOpenGL4.lib;qtmaind.lib;QtCored4.lib;QtGuid4.lib;SOIL.lib;libpng15.lib;devIL.lib;ilu.lib;ilut.lib;zlib.lib;OpenGL32.lib;GLu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;xerces-c_3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Qt\4.7.3\lib;C:\Users\aspurrel\Documents\xerces-c-3.1.1-x86-windows-vc-10.0\xerces-c-3.1.1-x86-windows-vc-10.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <BuildLog>
+      <Path>$(IntDir)\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Qt\4.7.3\include;C:\Users\aspurrel\Downloads\zlib125\zlib-1.2.5;C:\Qt\4.7.3\include\QtGui;C:\Qt\4.7.3\include\QtOpenGL;C:\Qt\4.7.3\include\QtCore</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies> QtOpenGLd4.lib;QtOpenGL4.lib;qtmaind.lib;QtCored4.lib;QtGuid4.lib;SOIL.lib;libpng15.lib;devIL.lib;ilu.lib;ilut.lib;zlib.lib;OpenGL32.lib;GLu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Qt\4.7.3\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ability.cpp" />
+    <ClCompile Include="abilityPanel.cpp" />
+    <ClCompile Include="aStar.cpp" />
+    <ClCompile Include="aStarNode.cpp" />
+    <ClCompile Include="attackAbility.cpp" />
+    <ClCompile Include="base.cpp" />
+    <ClCompile Include="binaryHeap.cpp" />
+    <ClCompile Include="bmp.cpp" />
+    <ClCompile Include="buildAbility.cpp" />
+    <ClCompile Include="building.cpp" />
+    <ClCompile Include="buildTier.cpp" />
+    <ClCompile Include="collision.cpp" />
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="fogofwar.cpp" />
+    <ClCompile Include="fowTile.cpp" />
+    <ClCompile Include="gameMainWindow.cpp" />
+    <ClCompile Include="GeneratedFiles\qrc_MainWindow.cpp" />
+    <ClCompile Include="grid.cpp" />
+    <ClCompile Include="group.cpp" />
+    <ClCompile Include="infoPanel.cpp" />
+    <ClCompile Include="logging.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwindow.cpp" />
+    <ClCompile Include="moc_abilitypanel.cpp" />
+    <ClCompile Include="moc_mainwindow.cpp" />
+    <ClCompile Include="moc_QtMainGame.cpp" />
+    <ClCompile Include="oldCollision.cpp" />
+    <ClCompile Include="pathingQueue.cpp" />
+    <ClCompile Include="playerControl.cpp" />
+    <ClCompile Include="point2d.cpp" />
+    <ClCompile Include="QtMain.cpp" />
+    <ClCompile Include="QtMainGame.cpp" />
+    <ClCompile Include="collisionGrid.cpp" />
+    <ClCompile Include="collisionGridNode.cpp" />
+    <ClCompile Include="quadTree.cpp" />
+    <ClCompile Include="quadTreeNode.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="selectionPanel.cpp" />
+    <ClCompile Include="setup.cpp" />
+    <ClCompile Include="sidePanel.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="spriteInfo.cpp" />
+    <ClCompile Include="texLoad.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="tileMapParser.cpp" />
+    <ClCompile Include="unitMapParser.cpp" />
+    <ClCompile Include="trainAbility.cpp" />
+    <ClCompile Include="unit.cpp" />
+    <ClCompile Include="utilFuncs.cpp" />
+    <ClCompile Include="xmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ability.h" />
+    <ClInclude Include="abilityPanel.h" />
+    <ClInclude Include="aStar.h" />
+    <ClInclude Include="aStarNode.h" />
+    <ClInclude Include="attackAbility.h" />
+    <ClInclude Include="binaryHeap.h" />
+    <ClInclude Include="bmp.h" />
+    <ClInclude Include="buildAbility.h" />
+    <ClInclude Include="building.h" />
+    <ClInclude Include="buildTier.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="control.h" />
+    <ClInclude Include="fogofwar.h" />
+    <ClInclude Include="fowTile.h" />
+    <ClInclude Include="gameMainWindow.h" />
+    <ClInclude Include="grid.h" />
+    <ClInclude Include="group.h" />
+    <ClInclude Include="infoPanel.h" />
+    <ClInclude Include="logging.h" />
+    <ClInclude Include="mainwindow.h" />
+    <ClInclude Include="pathingQueue.h" />
+    <ClInclude Include="playerControl.h" />
+    <ClInclude Include="point2d.h" />
+    <ClInclude Include="QtMain.h" />
+    <ClInclude Include="QtMainGame.h" />
+    <ClInclude Include="collisionGrid.h" />
+    <ClInclude Include="collisionGridNode.h" />
+    <ClInclude Include="quadTree.h" />
+    <ClInclude Include="quadTreeNode.h" />
+    <ClInclude Include="rectangle.h" />
+    <ClInclude Include="selectionPanel.h" />
+    <ClInclude Include="setup.h" />
+    <ClInclude Include="sidePanel.h" />
+    <ClInclude Include="sprite.h" />
+    <ClInclude Include="spriteDisplayLists.h" />
+    <ClInclude Include="spriteInfo.h" />
+    <ClInclude Include="texLoad.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="tileMapParser.h" />
+    <ClInclude Include="unitMapParser.h" />
+    <ClInclude Include="trainAbility.h" />
+    <ClInclude Include="ui_abilitypanel.h" />
+    <ClInclude Include="ui_mainwindow.h" />
+    <ClInclude Include="ui_QtMainGame.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="utilFuncs.h" />
+    <ClInclude Include="xmlparser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Users\aspurrel\Downloads\lpng151\lpng151\projects\vstudio\zlib\zlib.vcxproj">
+      <Project>{c3cf700a-5818-f3a4-1f92-32a61bb0d511}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="abilitypanel.ui" />
+    <None Include="MainWindow.qrc" />
+    <None Include="mainwindow.ui" />
+    <None Include="QtMainGame.ui">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

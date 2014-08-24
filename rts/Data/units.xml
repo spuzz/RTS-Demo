@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<game>
+	<unit>
+	  <name>swordsman</name>
+	  <health>100</health>
+	  <damage>5</damage>
+	  <armor>1</armor>
+	  <range>0</range>
+	  <movespeed>0.3</movespeed>
+	  <sizeX>50</sizeX>
+	  <sizeY>50</sizeY>
+	  <image>Data/building</image>
+	  <ability>
+		<type>attack</type>
+		<name>attackAbility</name>
+		<image>Data/attack</image>
+	  </ability>
+	</unit>
+
+	<unit>
+	  <name>drone</name>
+	  <health>100</health>
+	  <damage>5</damage>
+	  <armor>1</armor>
+	  <range>0</range>
+	  <movespeed>0.3</movespeed>
+	  <sizeX>50</sizeX>
+	  <sizeY>50</sizeY>
+	  <ability>
+		<type>buildTier</type>
+		<name>buildTier</name>
+		
+		<building>building</building>
+		<building2>building</building2>
+		<building3>building</building3>
+		<image>Data/droneBuild</image>
+	  </ability>
+	  <ability>
+		<type>attack</type>
+		<name>attackAbility</name>
+		<image>Data/attack</image>
+	  </ability>
+	  <image>Data/drone</image>
+	</unit>
+
+	<building>
+	  <name>building</name>
+	  <health>200</health>
+	  <damage>0</damage>
+	  <armor>3</armor>
+	  <range>0</range>
+	  <sizeX>100</sizeX>
+	  <sizeY>100</sizeY>
+	  <ability>
+		<type>train</type>
+		<name>trainAbility</name>
+		
+		<buildName>swordsman</buildName>
+		<image>Data/swordsmanred</image>
+	  </ability>
+	  <image>Data/swordsman</image>
+	</building>
+	
+	<building>
+	  <name>tree</name>
+	  <health>20</health>
+	  <damage>0</damage>
+	  <armor>0</armor>
+	  <range>0</range>
+	  <sizeX>50</sizeX>
+	  <sizeY>50</sizeY>
+	  <image>Data/tree</image>
+	</building>
+	<building>
+	  <name>wall</name>
+	  <health>1000000</health>
+	  <damage>0</damage>
+	  <armor>0</armor>
+	  <range>0</range>
+	  <sizeX>100</sizeX>
+	  <sizeY>100</sizeY>
+	  <image>Data/wall</image>
+	</building>
+	
+	<building>
+	  <name>goldmine</name>
+	  <health>2000</health>
+	  <damage>0</damage>
+	  <armor>0</armor>
+	  <range>0</range>
+	  <sizeX>200</sizeX>
+	  <sizeY>200</sizeY>
+	  <image>Data/goldmine</image>
+	</building>
+</game>

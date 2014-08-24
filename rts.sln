@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rts", "rts\rts.vcxproj", "{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Library|Win32 = Debug Library|Win32
+		Debug|Win32 = Debug|Win32
+		Release Library|Win32 = Release Library|Win32
+		Release|Win32 = Release|Win32
+		rts|Win32 = rts|Win32
+		rts2|Win32 = rts2|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Debug Library|Win32.ActiveCfg = Debug|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Debug Library|Win32.Build.0 = Debug|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Debug|Win32.Build.0 = Debug|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Release Library|Win32.ActiveCfg = Release|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Release Library|Win32.Build.0 = Release|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Release|Win32.ActiveCfg = Release|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.Release|Win32.Build.0 = Release|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.rts|Win32.ActiveCfg = rts|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.rts|Win32.Build.0 = rts|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.rts2|Win32.ActiveCfg = rts|Win32
+		{3DAE6344-50B9-4F21-8EE1-5D453F28FD0D}.rts2|Win32.Build.0 = rts|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

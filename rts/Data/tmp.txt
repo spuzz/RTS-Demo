@@ -1,0 +1,109 @@
+[14:32]	===	karin <~chatzilla@0::ffff:10.98.44.115> “New Now Know How”
+[14:32]	===	karin: member of #lobby, #dev, and #support
+[14:32]	===	karin: attached to irc.penthouse.datasynapse.com “D a t a S y n a p s e IRC”
+[14:32]	===	karin: idle for 17 minutes, 29 seconds (on since 25 October 2012 12:57:18)
+[14:32]	---	End of WHOIS information for karin.
+[14:32]	adam	I have just determined that Tom's doing it wrong
+[14:32]	karin	?
+[14:32]	adam	Month: 1, ballance: 1846640014.18761
+[14:33]	karin	what value are you using?
+[14:33]	adam	for an initial balance of 2000000000 with 18% interest
+[14:33]	adam	... check it
+[14:33]	karin	I thought we all had the same answer?
+[14:33]	adam	its the same best payment... but only cause Tom is lucky
+[14:33]	karin	lol
+[14:33]	karin	ok well I am not doing what tom;s doing
+[14:34]	adam	well so far I have determined that no one seems to have the same final balance even with the right answer
+[14:34]	adam	was wondering what yours came out as
+[14:34]	karin	what do u mean?
+[14:35]	adam	well with the above arguements Tom's final balance is 0.000921274423599243
+[14:35]	adam	mine is 0.03
+[14:35]	karin	yeah but that's not relevant is it
+[14:35]	adam	anithas is 0.028
+[14:36]	karin	we are simply talking about the monthly rate
+[14:36]	adam	yes but the final balance affects whether the final balance is correct
+[14:36]	adam	the payment*
+[14:36]	karin	lol
+[14:36]	karin	what?
+[14:36]	karin	so what do u want me to give you?
+[14:37]	adam	the final best left over with the above arguements using your best payment
+[14:37]	karin	the full double payment without the rounding?
+[14:37]	adam	final balance*
+[14:39]	adam	Anitha had to add more code just to find that out so I am guessing your in the same situation
+[14:40]	karin	yeah I can't tell you the final balance right now
+[14:40]	karin	because I just calculate the payment
+[14:40]	karin	but again I don;t see how it's important
+[14:45]	adam	It's hard to explain
+[14:45]	adam	with Tom's calculations he is coming out about 3p less paid off compared to everyone else
+[14:46]	adam	now since with the best payment it comes out at 3p overpaid anyway
+[14:46]	adam	its not noticable
+[14:46]	adam	however with the best payment might come out almost at exactly 0 balance
+[14:46]	adam	but his one would show it at 3p left to pay
+[14:47]	adam	so his final payment would adjust for that and he would end up with the wrong answer
+[14:47]	adam	however with different arguments*
+[14:48]	karin	like which one
+[14:48]	karin	give me arguments that would cause it to show
+[14:48]	karin	to be honest, I don;t know how tom's doing it exactly but he's not doing it mathmatically
+[14:49]	karin	I am using a formula, that's what you would use in financial mathmatics, so I am quite sure it's correct
+[14:50]	adam	I am not worrying about yours and I am concerned Tom's is wrong since he will be determining who got it right lol
+[14:50]	karin	yeah but we just need figures that show the differece
+[14:54]	adam	1950000000 0.18
+[14:57]	karin	hey adam
+[14:57]	karin	can u take 1-D7HQDF
+[14:57]	karin	it's greg's tix
+[14:57]	karin	but he is on nights
+[14:57]	karin	check tix 1-BJNCXD in conjunction with it
+[14:58]	adam	alright
+[14:58]	karin	btw
+[14:58]	karin	176133976.52
+[14:59]	adam	yer we are getting the same but I think Tom's might not be
+[14:59]	karin	ok
+[14:59]	adam	o and Fahad wants me to tell you that his is faster than yours hahahahaa
+[14:59]	karin	dream on
+[15:00]	adam	his is taking 11 milliseconds
+[15:00]	karin	what his testing every single penny?
+[15:00]	karin	you got to be kidding
+[15:00]	adam	no he has changed his
+[15:00]	karin	never mind, so did I
+[15:00]	adam	but yer he is still using trial and error like me
+[15:00]	karin	I've implemented it in cpp now
+[15:00]	adam	how long does it take?
+[15:01]	karin	I don;t yet, because I have't added a timer
+[15:01]	adam	lol ok
+[16:22]	adam	Hey Karin
+[16:23]	karin	hey
+[16:27]	adam	sooo Patrick says they won't likely be fixing that issue in 5.1... just wanted to check with you that I should tell he customer that as he won't be happy!
+[16:28]	karin	well do we have any other choice
+[16:28]	adam	doesn't look that way
+[16:32]	adam	I am just not quite sure how to tell them other than "Sorry they are not going to fix it cause it's not worth the time" lol
+[16:32]	karin	let me check the ticket
+[16:33]	adam	ok thankyou
+[16:48]	karin	so I read the ticket
+[16:49]	karin	are they really still on 5?
+[16:49]	karin	and have we fixed this in a 5.1 release?
+[16:52]	adam	no they are on 5.1... I assumed that is what patrick and Michael where to talking about...
+[16:54]	karin	I am confused
+[16:54]	karin	greg mentioned GSCR-1755
+[16:55]	karin	which doesn't even exists
+[16:55]	adam	yer that confused me aswell
+[16:56]	adam	I was gonna bring that up until they said they weren't going to fix it anyway so I thought it didn't really matter
+[16:57]	karin	yeah but it'd be good to know if it was fixed in 5.1
+[16:57]	karin	I think they are still on 5
+[16:57]	karin	because he keeps saying 5
+[16:57]	adam	they say 5.1 many times at the end of ticket
+[16:57]	adam	Also we need to "patch" every 5.1 grid.
+[16:58]	adam	So we ask a fix for 5.1 version.
+[16:58]	adam	On grid 5.1+ (<6.0)
+[16:58]	adam	Thanks to reopen the ticket and ask a fix in Grid Server 5.1+
+[17:00]	karin	this is stupid, because if they are not on 5
+[17:01]	adam	The feature request GSCR-1755 was scheduled to be resolved in the service pack 3 for GridServer 5.1 and 6.0.
+[17:01]	adam	Yes, the behaviour will be improved according to your request. It is already scheduled to be delivered in Service Pack 3 for GridServer 6.0 only. I am sorry for confusing information regarding version 5.1
+[17:05]	karin	I don't know what he is talking about "fix just this"
+[17:06]	adam	They don't want to do a hotfix just for 1 issue
+[17:06]	karin	yeah but we alreayd have 3 issues for barcap
+[17:06]	karin	for hf14
+[17:06]	karin	hence why I said add it to 14
+[17:09]	karin	right, so if wombat doesn;'t come back, let's tell the cusotmer that the fix is available from 6.0.2 onwards and since there is a workaround for 5.1 there is currently no intention of releaseing a hf for it
+[17:09]	karin	also add that, if we were to provide a fix, they would have to yet again apply a hf
+[17:09]	adam	alright
+[17:10]	karin	let's see how they react
